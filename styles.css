@@ -1,0 +1,107 @@
+.container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+background-color: rgb(26, 22, 22);
+width: 100vw;
+height: 100vh;
+align-items: center;
+}
+
+.titulo1{
+    font-size: 50px;
+    font-family:'Orbitron', sans-serif;
+}
+
+.titulo2{
+    font-size: 50px;
+    font-family:'Orbitron', sans-serif;
+}
+
+.box{
+    background-color: #EEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    transition: all 0.3s ease;
+    width: 38em;
+    height: 38em;
+    border-radius: 50%;
+}
+
+.res1{
+    font-family:'Orbitron', sans-serif;
+    font-size: 80px;
+}
+.res2{
+    font-family:'Orbitron', sans-serif;
+    font-size: 80px;
+}
+.button1{
+    background-color: rgb(224, 66, 66);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    transition: all 0.3s ease;
+    font-family:'Orbitron', sans-serif;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid  rgb(26, 22, 22)
+     
+}
+.button2{
+    background-color: rgb(121, 180, 62);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    transition: all 0.3s ease;
+    font-family:'Orbitron', sans-serif;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid  rgb(26, 22, 22)
+}
+
+.elementos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: none;
+    width: 180px;
+    
+}
+
+#desenvolvido{
+    font-family:'Orbitron', sans-serif;
+    font-size: 20px;
+    color: #EEE;
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    background-color: none;
+    
+}
+
+body{
+    margin: 0px;
+}
+
+@font-face{
+    font-family:'Orbitron', sans-serif;
+    src: local(Orbitron),url(https://fonts.googleapis.com/css2?family=Orbitron&display=swap);
+}
+
+button:hover {
+    transition: all 0.3s ease;
+    color: azure;
+    font-size: 22px;
+    line-height: 22px;
+    height: 44px;
+    width: 44px;
+}
